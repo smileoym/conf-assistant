@@ -11,10 +11,16 @@ $ npm install -g gulp
 $ npm install -g browserify
 
 5. Enter to project folder (assist-react-express), run
-$ npm init
-$ bower init
+$ npm install
+$ bower install
 
-===== Installation Completed =======================
+===== Installation Completed !! =======================
+
+To run application:
+1. Enter to project folder (assist-react-express)
+2. Run web-server (available at 'http://localhost:9001')
+$ gulp serve
+
 
 
 
