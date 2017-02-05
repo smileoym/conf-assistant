@@ -1,0 +1,60 @@
+Installation guide:
+1. Install node.js (npm atomatically installed)
+
+2. Install bower globally (using npm)
+$ npm install -g bower
+
+3. Install gulp globally
+$ npm install -g gulp
+
+4. Automatically convertion JSX to JS
+$ npm install -g browserify
+
+5. Enter to project folder (assist-react-express), run
+$ npm init
+$ bower init
+
+===== Installation Completed =======================
+
+
+
+*************************************************
+DON'T USE IT !!
+*************************************************
+Full installation from scratch:
+
+1. Install node.js (npm atomatically installed)
+2. Install bower globally (using npm)
+$ npm install -g bower
+
+3. In poject folder run
+$ npm init
+$ bower init
+
+4. Install express ejs module
+$ npm install ejs
+
+5. Install gulp globally
+$ npm install -g gulp
+
+6. Install gulp,gulp-live-server locally
+$ npm install --save gulp gulp-live-server
+
+7. Install browser-sync module locally (to sync code changes)
+$ npm install --save browser-sync
+
+8. Install react library locally
+$ npm install --save react
+$ npm install --save react-dom
+$ bower install --save react
+
+9. Install react-tool globally (give jsx CLI) - optional
+$ npm install -g react-tools
+
+10. Automatically convertion JSX to JS
+10.1 Install browserify globally (Takes server-side app and make it visible in a browser)
+$ npm install -g browserify
+10.2 Install reactify (JSX compiler) and browserify locally
+$ npm install --save reactify browserify
+10.3 To setup JSX->JS transformation
+$ npm install --save vinyl-source-stream

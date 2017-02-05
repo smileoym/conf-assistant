@@ -1,0 +1,29 @@
+Market needs 2017:
+
+Core skills:
+Good knowledge of JavaScript. Experience with ES5 and ES6.
+HTML5
+CSS knowledge is a must
+
+Styles,templates:
+LESS, SASS, SCSS, Compass
+Pug, Jade
+
+Architecture:
+MVC, MVVM
+
+Frameworks:
+ReactJS + FLUX (REDUX) experience
+AngularJS 1.x (2.x), Bootstrap 3.x (4.x)
+LoDash, Node.js(Express)
+
+Testing:
+Familiarity with testing solutions: Karma, Jasmine
+
+Build/tasks:
+Basic knowledge of task-runners (eg. npm/webpack/gulp/grunt)
+
+Optional:
+Vue.js
+Socket.io
+Passport.js

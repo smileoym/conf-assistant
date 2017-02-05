@@ -1,0 +1,29 @@
+{
+  "about": {},
+  "participants": [
+    {
+      "name": "Laurie Voss",
+      "topic": "What everybody should know about npm",
+      "company": "npm",
+      "country": "United States"
+    },
+    {
+      "name": "Suz Hinton",
+      "topic": "The Formulartic Spectrum",
+      "company": "",
+      "country": "United States"
+    },
+    {
+      "name": "Denys Mishunov",
+      "topic": "Why Performance Matters",
+      "company": "",
+      "country": "Norway"
+    },
+    {
+      "name": "Sam Bellen",
+      "topic": "Changing live audio with the web-audio-api",
+      "company": "",
+      "country": "Belgium"
+    }
+  ]
+}
