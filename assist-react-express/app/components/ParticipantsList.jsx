@@ -1,14 +1,15 @@
 var React = require('react');
+var Participant = require('./Participant.jsx');
 
-var ParticipantsList = React.createClass({
+module.exports = React.createClass({
     render: function(){
         return (
             <div>
                 <h1>Participants List:</h1>
                 <div>
                     {
-                        this.props.participants.map(function (member) {
-                            return <Member key={member.name} name={member.name}/>;
+                        this.props.participants.map(function(item, index) {
+                            return <Participant key={"index" + index} item={item}/>;
                         })
                     }
                 </div>
@@ -16,9 +17,3 @@ var ParticipantsList = React.createClass({
         )
     }
 });
-
-function Member(props) {
-    return <div>{props.name}</div>
-}
-
-module.exports = ParticipantsList;
