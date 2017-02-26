@@ -1,4 +1,26 @@
-.usparticipant {
+.unregistered {
     text-decoration: line-through;
     color: slategray;
+}
+
+html {
+    color: darkslategray;
+    background-color: #fffefd;
+}
+
+body {
+    padding-top: 3rem;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+.participant-addItem {
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.button-primary {
+    background-color: green;
 }

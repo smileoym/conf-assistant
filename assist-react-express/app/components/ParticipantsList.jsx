@@ -1,5 +1,6 @@
 var React = require('react');
 var Participant = require('./Participant.jsx');
+var ParticipantAdd = require('./ParticipantAdd.jsx');
 
 module.exports = React.createClass({
     render: function(){
@@ -13,6 +14,7 @@ module.exports = React.createClass({
                         })
                     }
                 </div>
+                <ParticipantAdd/>
             </div>
         )
     }

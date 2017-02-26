@@ -64,3 +64,9 @@ $ npm install -g browserify
 $ npm install --save reactify browserify
 10.3 To setup JSX->JS transformation
 $ npm install --save vinyl-source-stream
+
+11. Tool for geneating random strings
+$ npm i --save guid
+
+12. Lightway css syling
+$ bower install --save skeleton
